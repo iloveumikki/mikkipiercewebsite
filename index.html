@@ -144,7 +144,7 @@
 
 <body class="vhs-scanlines">
   
-  <img src="{{ url_for('static', filename='eye.png') }}" id="eye" style="position:fixed;top:50px;right:50px;width:150px;z-index:9999;pointer-events: none;">
+  <img src="eye.png" id="eye" style="position:fixed;top:50px;right:50px;width:150px;z-index:9999;pointer-events: none;">
 
     <script>
       const eye = document.getElementById('eye');
@@ -155,11 +155,11 @@
     </script>
   
   
-  <img src="{{ url_for('static', filename='corner_icon.png') }}" alt="Corner Icon" class="top-left-sticky">
+  <img src="corner_icon.png" alt="Corner Icon" class="top-left-sticky">
 
   <!-- 🎥 Background Video -->
   <video id="bg-video" autoplay muted loop>
-    <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+    <source src="bg.mp4" type="video/mp4">
   </video>
 
   <!-- 📺 Static Overlay -->
@@ -167,7 +167,7 @@
 
   <!-- 🧠 Logo -->
   <div class="center-content">
-    <img src="{{ url_for('static', filename='mikki_logo.png') }}" alt="Mikki Pierce" class="logo-heading">
+    <img src="mikki_logo.png" alt="Mikki Pierce" class="logo-heading">
     <div class="scroll-prompt">↓ SCROLL DOWN ↓</div>
   </div>
 
